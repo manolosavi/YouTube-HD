@@ -8,17 +8,21 @@
 	left: -108px !important;
 }
 
+#player {
+	margin: 0 !important;
+}
+
 #player.watch-small {
 	padding: 0 !important;
 }
 
 #player.watch-small #movie_player {
-	margin-left: 214px !important;
+	margin-left: 224px !important;
 }
 
 #player.watch-small #player-api.player-width {
-	padding: 10px;
-	margin-left: -200px;
+	padding: 10px 0 !important;
+	margin: 0 !important;
 	width: 1440px !important;
 }
 
@@ -28,11 +32,6 @@
 
 #movie_player {
 	margin-left: 108px !important;
-}
-
-#watch7-headline-container, #watch7-video-container, #player-legacy {
-	background: #000 !important;
-	height: 730px !important;
 }
 
 #player {
