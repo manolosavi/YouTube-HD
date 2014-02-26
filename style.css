@@ -1,0 +1,84 @@
+.yt-alert-content {
+	display: none !important;
+}
+
+#watch7-video.wide, #watch7-player, #player-api, #movie_player, #player-api-legacy {
+	width: 1207px !important;
+	height: 720px !important;
+	left: -108px !important;
+}
+
+#player.watch-small {
+	padding: 0 !important;
+}
+
+#player.watch-small #movie_player {
+	margin-left: 214px !important;
+}
+
+#player.watch-small #player-api.player-width {
+	padding: 10px;
+	margin-left: -200px;
+	width: 1440px !important;
+}
+
+#player.watch-medium {
+	width: 1440px !important;
+}
+
+#movie_player {
+	margin-left: 108px !important;
+}
+
+#watch7-headline-container, #watch7-video-container, #player-legacy {
+	background: #000 !important;
+	height: 730px !important;
+}
+
+#player {
+	margin-top: 0 !important;
+	box-sizing: border-box !important;
+	padding-top: 15px !important;
+	padding-bottom: 15px !important;
+	background: #000 !important;
+}
+
+#watch7-sidebar, #watch-related.video-list {
+	margin-top: 5px !important;
+}
+
+.watch-wide, .watch-wide #watch7-sidebar, .watch-playlist #watch7-sidebar, .watch-branded #watch7-sidebar {
+	padding-top: 0 !important;
+}
+
+.collapsible-guide.branded {
+	display: none;
+}
+
+.guide-module-toggle {
+	display: none !important;
+}
+
+#appbar-guide-menu {
+	margin: 0 !important;
+	box-sizing: border-box !important;
+	padding-top: 90px !important;
+	z-index: 0 !important;
+}
+
+#appbar-guide-iframe-mask {
+	display: none !important;
+}
+
+#masthead-positioner {
+	position: relative !important;
+	top: 0 !important;
+}
+
+#masthead-positioner-height-offset {
+	display: none !important;
+}
+
+#yt-hitchhiker-feedback {
+	display: none !important;
+}
