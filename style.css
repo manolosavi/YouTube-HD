@@ -21,13 +21,22 @@
 }
 
 #player.watch-small #player-api.player-width {
-	padding: 20px 0 !important;
+	padding: 30px 0 !important;
 	margin: 0 !important;
 	width: 1440px !important;
 }
 
 #player.watch-medium {
 	width: 1440px !important;
+}
+
+.video-stream, .html5-main-video {
+	width: 100% !important;
+	height: 100% !important;
+}
+
+.html5-progress-bar {
+	width: 100% !important;
 }
 
 #movie_player {
@@ -44,6 +53,10 @@
 
 #watch7-sidebar, #watch-related.video-list {
 	margin-top: 5px !important;
+}
+
+#watch7-sidebar {
+	top: 15px !important;
 }
 
 .watch-wide, .watch-wide #watch7-sidebar, .watch-playlist #watch7-sidebar, .watch-branded #watch7-sidebar {
