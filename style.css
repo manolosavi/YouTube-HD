@@ -5,7 +5,16 @@
 #watch7-video.wide, #watch7-player, #player-api, #movie_player, #player-api-legacy {
 	width: 1207px !important;
 	height: 720px !important;
-	left: -108px !important;
+	/*left: -108px !important;*/
+}
+
+#watch7-main-container {
+	padding-top: 300px !important;
+}
+
+.html5-video-content {
+	width: 1207px !important;
+	height: 720px !important;
 }
 
 #player {
@@ -17,7 +26,7 @@
 }
 
 #player.watch-small #movie_player {
-	margin-left: 224px !important;
+	/*margin-left: 224px !important;*/
 }
 
 #player.watch-small #player-api.player-width {
