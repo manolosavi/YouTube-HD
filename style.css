@@ -2,10 +2,13 @@
 	display: none !important;
 }
 
-#watch7-video.wide, #watch7-player, #player-api, #movie_player, #player-api-legacy {
+.html5-video-container, .html5-video-player, .video-stream, #player-api {
 	width: 1207px !important;
 	height: 720px !important;
-	/*left: -108px !important;*/
+}
+
+.ytp-chrome-bottom {
+	width: 1200px !important;
 }
 
 #watch7-main-container {
@@ -19,6 +22,16 @@
 
 #player {
 	margin: 0 !important;
+	margin-top: 0 !important;
+	box-sizing: border-box !important;
+	padding-top: 15px !important;
+	padding-bottom: 15px !important;
+	background: #000 !important;
+}
+
+.video-stream, .html5-main-video, .html5-video-content {
+	left: 0 !important;
+	top: 0 !important;
 }
 
 #player.watch-small {
@@ -52,13 +65,6 @@
 	margin-left: 108px !important;
 }
 
-#player {
-	margin-top: 0 !important;
-	box-sizing: border-box !important;
-	padding-top: 15px !important;
-	padding-bottom: 15px !important;
-	background: #000 !important;
-}
 
 #watch7-sidebar, #watch-related.video-list {
 	margin-top: 5px !important;
