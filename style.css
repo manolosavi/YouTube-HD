@@ -16,7 +16,7 @@
 }
 
 .player-width, .ytp-iv-video-content, #player.watch-medium {
-	width: 174vh !important;
+	/*width: 174vh !important; too wide? not necessary?*/
 }
 
 .player-height, .ytp-iv-video-content {
