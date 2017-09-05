@@ -1,109 +1,28 @@
-.yt-alert-content {
+.yt-alert-content, .collapsible-guide.branded, .guide-module-toggle, #appbar-guide-iframe-mask, #masthead-positioner-height-offset, #yt-hitchhiker-feedback {
 	display: none !important;
 }
 
-.html5-video-container, .html5-video-player, .video-stream, #player-api {
-	width: 174vh !important;
-	height: 98vh !important;
+#masthead-container {
+	position: relative !important;
+	top: 0 !important;
+    margin-bottom: -56px !important;
 }
 
-.ytp-chrome-bottom {
-	width: calc(174vh - 20px) !important;
-}
-
-#watch7-main-container {
-	padding-top: 20px !important;
-}
-
-.player-width, .ytp-iv-video-content, #player.watch-medium {
-	/*width: 174vh !important; too wide? not necessary?*/
-}
-
-.player-height, .ytp-iv-video-content {
+#player-container {
+    position: relative !important;
 	height: 100vh !important;
 }
 
 #player {
-	margin: 0 !important;
-	margin-top: 0 !important;
-	box-sizing: border-box !important;
-	padding: 15px 0 !important;
+    padding: 15px 0 !important;
+    margin-bottom: 240px !important;
 	background: #000 !important;
 }
 
-.video-stream, .html5-main-video, .html5-video-content {
-	left: 0 !important;
-	top: 0 !important;
-}
-
-#player.watch-small {
-	padding: 0 !important;
-}
-
-#player.watch-small #player-api.player-width {
-	padding: 10px 0 20px !important;
-	margin: 0 !important;
-	width: 100vw !important;
-}
-
-.ytp-tooltip {
-	top: 84vh !important;
-}
-
 .video-stream, .html5-main-video {
-	width: 100% !important;
-	height: 100% !important;
+    position: relative !important;
+    left: 0 !important;
+    height: 99vh !important;
+     width: 99vw !important;
 }
 
-.html5-progress-bar {
-	width: 100% !important;
-}
-
-#movie_player {
-	margin: 0 auto !important;
-}
-
-
-#watch7-sidebar, #watch-related.video-list {
-	margin-top: 0 !important;
-}
-
-#watch7-sidebar {
-	top: 0 !important;
-}
-
-.watch-wide, .watch-wide #watch7-sidebar, .watch-playlist #watch7-sidebar, .watch-branded #watch7-sidebar {
-	padding-top: 0 !important;
-}
-
-.collapsible-guide.branded {
-	display: none !important;
-}
-
-.guide-module-toggle {
-	display: none !important;
-}
-
-#appbar-guide-menu {
-	margin: 0 !important;
-	box-sizing: border-box !important;
-	padding-top: 90px !important;
-	z-index: 0 !important;
-}
-
-#appbar-guide-iframe-mask {
-	display: none !important;
-}
-
-#masthead-positioner {
-	position: relative !important;
-	top: 0 !important;
-}
-
-#masthead-positioner-height-offset {
-	display: none !important;
-}
-
-#yt-hitchhiker-feedback {
-	display: none !important;
-}
