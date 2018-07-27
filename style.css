@@ -8,9 +8,10 @@
     margin-bottom: -56px !important;
 }
 
-#player-container {
+#player-theater-container {
     position: relative !important;
 	height: 100vh !important;
+	max-height: 100vh !important;
 }
 
 #player {
